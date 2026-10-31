@@ -1,6 +1,6 @@
 # Translink Merchant: UX case study
 
-A UX case study by **Ravi Myneni**, Senior Consultant – UX at Virtusa India, about the Translink Merchant Android app he designed for Cubic Transportation Systems. Retailers in South East Queensland use it to sell and top up go cards.
+A UX case study by **Ravi Myneni**, Sr UX Designer (Client: Cubic, Payroll: Virtusa), about the Translink Merchant Android app he designed for Cubic Transportation Systems. Retailers in South East Queensland use it to sell and top up go cards.
 
 The page uses the shared case-study layout and this process: My Role, Design Process, Problem, Stakeholders, End Users, Research Methods, Competitive Analysis, User Personas, Design Decisions, Prototype, UI Kit, Final Design, Outcome, Metrics.
 
