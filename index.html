@@ -20,13 +20,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="case-study.css">
 <style>
-@property --col{
-  syntax:"<length>";
-  inherits:true;
-  initial-value:0px;
-}
 body{
-  --col:70ch;
   line-height:1.7;
   text-align:left;
 }
@@ -41,7 +35,7 @@ h1,h2,h3{text-align:left}
 .body > p:not(.callout),
 .body figcaption,
 .cs-cover figcaption{
-  max-width:var(--col);
+  max-width:none;
   text-align:left;
   line-height:1.7;
 }
@@ -52,7 +46,7 @@ h3{margin-bottom:0}
 .body ul,.body ol{
   margin-left:-1.25em;
   padding-left:1.25em;
-  max-width:calc(var(--col) + 1.25em);
+  max-width:none;
   box-sizing:border-box;
   list-style-position:outside;
 }
@@ -60,7 +54,7 @@ h3{margin-bottom:0}
 .body li+li{margin-top:8px}
 .body > p.callout{
   box-sizing:border-box;
-  max-width:calc(var(--col) + 20px);
+  max-width:none;
   margin-left:-20px;
   padding:12px 0 12px 16px;
   border-left:4px solid var(--accent);
@@ -233,8 +227,7 @@ img{height:auto}
   #personas .persona-row > .persona{flex-basis:calc((100% - 80px) / 2)}
 }
 @media (min-width:901px){
-  .cs-hero .wrap{padding-left:168px}
-  .cs-hero .meta{grid-template-columns:repeat(5,minmax(0,1fr))}
+  .cs-hero .meta{grid-template-columns:repeat(3,minmax(0,1fr))}
 }
 @media (max-width:900px){
   .cs-section .head{gap:8px}
@@ -261,9 +254,10 @@ img{height:auto}
   <h1>Translink Merchant</h1>
   <p class="lede">An Android app for the shops that sell Translink go cards around Brisbane and South East Queensland. Clerks read a card, take payment, load value or a pass, print the receipt and close the shift.</p>
   <dl class="meta">
-    <div><dt>Role</dt><dd>Senior Consultant - UX, Virtusa India</dd></div>
+    <div><dt>Role</dt><dd>Sr UX Designer</dd></div>
     <div><dt>Timeline</dt><dd>8 months</dd></div>
-    <div><dt>Team</dt><dd>Cubic</dd></div>
+    <div><dt>Client</dt><dd>Cubic</dd></div>
+    <div><dt>Payroll</dt><dd>Virtusa</dd></div>
     <div><dt>Platform</dt><dd>Android handheld, card reader and printer</dd></div>
     <div><dt>Tools</dt><dd>Figma</dd></div>
   </dl>
@@ -272,7 +266,7 @@ img{height:auto}
 
 <main id="main">
 <section class="cs-section" id="role"><div class="wrap">
-  <div class="head"><div class="num">01</div><div><h2>My Role</h2><p>I am Ravi Myneni, Senior Consultant - UX at Virtusa India. I owned the UX and UI: end-to-end flows and the prototype, working with Cubic product, engineering and back-office teams.</p></div></div>
+  <div class="head"><div class="num">01</div><div><h2>My Role</h2><p>I worked for Cubic as a Sr UX Designer through Virtusa, with Cubic Transportation Systems as the client. I owned the UX and UI: end-to-end flows and the prototype, working with Cubic product, engineering and back-office teams.</p></div></div>
   <div class="body">
     <p>Translink Merchant is a retailer point-of-sale app. Cubic Transportation Systems runs the go card system for Translink. Managers and admins use the same handheld as clerks, to run staff accounts and the device itself. I cropped every screen on this page from the design board. I summarised the public facts about the retailer network in Research.</p>
     <div class="grid g3">
